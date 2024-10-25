@@ -53,8 +53,8 @@ int main() {
     // Загрузка данных из файла
     ufo.load(filename);
 
-.   //Открытие файла
-.   ufo.open(filename);
+    //Открытие файла
+    ufo.open(filename);
 
     // Извлечение данных
     auto allItems = ufo.getAllByClass("box");
